@@ -21,11 +21,12 @@ let arr = [1,2,3,4];
 			resolve(multi);
 		},2000);
 	});
-}
+
 let output =document.getElementById('output');
 
 promise1.then((data) => {
 	output.innerText = data;
+console.log(data);
 });
 
 promise2.then((data) => {
